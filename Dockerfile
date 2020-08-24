@@ -57,6 +57,7 @@ RUN dpkg-divert --local --rename --add /sbin/initctl && \
 	    php7.1-zip \
 	    php7.1-cli \
 	    php7.1-sybase \
+	    php7.1-bcmath \
 	    php7.1-odbc
 
 # Cleanup
